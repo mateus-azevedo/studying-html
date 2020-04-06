@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+section.header-social {
+    background-color: #AE8787;
+    display: flex;
+}
+
+.header-social img.logotipo {
+    margin: 5px 25px;
+
+    width: 70px;
+    height: 65px;
+}
+
+.header-social ul {
+    display: flex;
+
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.header-social img.social {
+    width: 35px;
+    height: 35px;
+}
