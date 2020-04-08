@@ -2,9 +2,13 @@ body {
     margin: 0;
 }
 
+    /* BARRA SITE */
 section.header-social {
-    background-color: #AE8787;
     display: flex;
+
+    background-color: #25232396;
+
+    justify-content: space-between;
 }
 
 .header-social img.logotipo {
@@ -17,13 +21,43 @@ section.header-social {
 .header-social ul {
     display: flex;
 
-    width: 100%;
+    padding: 0;
+    width: 95%;
+
     justify-content: flex-end;
     align-items: center;
-    
+}
+
+.header-social li {
+    margin-left: 15px;
+
+    list-style-type: none;
+
+}
+
+.header-social nav li:last-child {
+    margin-right: 50px;    
 }
 
 .header-social img.social {
     width: 35px;
     height: 35px;
+}
+
+    /* APRESENTAÇÃO */
+
+div.apresentacao {
+    background-image: url('../img/workstation.jpg');
+    background-color: rgba(0, 0, 0, 0.699);  
+    background-size: cover;
+
+    min-height: 75vh;    
+}
+
+div.apresentacao h1, h3 {
+    color: whitesmoke;
+
+    margin: 0;
+    text-align: center;
+        
 }
